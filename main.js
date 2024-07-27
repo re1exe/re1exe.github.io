@@ -4,9 +4,8 @@ function begging() {
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-const openForm = async () =>  {
+function openForm() {
     document.getElementById("PopUp").style.display = "block";
-    await delay(300);  
     }
     
     function closeForm() {
