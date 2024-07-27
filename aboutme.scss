@@ -56,11 +56,12 @@ footer {
     }
 
     html::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
+        width: 0.8vh;
+        height: 0.8vh;
         }
         
         html::-webkit-scrollbar-thumb {
         border-radius: 20px;
-        background: #888;
+        background: $secondaryColor;
+        box-shadow: 0vh 0vh 3vh $secondaryColor;
         }
