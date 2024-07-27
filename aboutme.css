@@ -47,4 +47,14 @@ footer i {
   letter-spacing: 1vh;
   color: #7e23ff;
   text-shadow: 0vh 0vh 0.5vh #7e23ff;
+}
+
+.scroll-1::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll-1::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #888;
 }/*# sourceMappingURL=aboutme.css.map */
