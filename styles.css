@@ -88,4 +88,14 @@ a:hover {
 .form-popup p {
   color: gray;
   font-size: 3vh;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8vh;
+  height: 0.8vh;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #FE5F55;
 }/*# sourceMappingURL=styles.css.map */

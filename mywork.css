@@ -101,4 +101,14 @@ nav .selected {
   color: #FE5F55;
   text-shadow: 0vh 0vh 1.5vh #FE5F55;
   border: none;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8vh;
+  height: 0.8vh;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #FE5F55;
 }/*# sourceMappingURL=mywork.css.map */

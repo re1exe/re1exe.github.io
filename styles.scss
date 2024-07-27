@@ -101,3 +101,12 @@ p {
 
     }
 
+    html::-webkit-scrollbar {
+        width: 0.8vh;
+        height: 0.8vh;
+        }
+        
+        html::-webkit-scrollbar-thumb {
+        border-radius: 20px;
+        background: $secondaryColor;
+        }
