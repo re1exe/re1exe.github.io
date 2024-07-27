@@ -1,9 +1,13 @@
-
+function begging() {
+    alert("Well.. you already clicked on ontacts so follow me on instagram & github and pwease join my discord 🙏")
+}
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-function openForm() {
+const openForm = async () =>  {
     document.getElementById("PopUp").style.display = "block";
+    await delay(300);
+ begging()   
     }
     
     function closeForm() {
