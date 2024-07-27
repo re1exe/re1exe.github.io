@@ -42,7 +42,8 @@ footer i {
 
 article {
   box-shadow: 0vh 0vh 4vh rgba(0, 0, 0, 0.4);
-  margin-top: 8vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   padding-left: 3vh;
   padding-right: 3vh;
   padding-top: 3vh;
