@@ -13,10 +13,6 @@ html, body {
     color: $textColor;
 }
 
-overflow {
-    display: none;
-}
-
 nav {
     margin-bottom: 3vh;
     font-family: "Kanit", sans-serif;
@@ -36,7 +32,6 @@ nav {
 body {
     display: flex;
     flex-direction: column;
-    text-align: center;
     }
 
     .content {
