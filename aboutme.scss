@@ -11,10 +11,11 @@ html, body {
     margin: 0;
     background-color: $bgColor;
     color: $textColor;
-    overflow: unset;
+    overflow: hidden;
 }
 
 nav {
+    margin-bottom: 6vh;
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     a {

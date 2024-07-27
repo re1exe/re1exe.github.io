@@ -5,10 +5,11 @@ html, body {
   margin: 0;
   background-color: #212121;
   color: #FFFFFF;
-  overflow: unset;
+  overflow: hidden;
 }
 
 nav {
+  margin-bottom: 6vh;
   font-family: "Kanit", sans-serif;
   font-weight: 200;
 }
