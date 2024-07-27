@@ -55,12 +55,12 @@ footer {
     }
     }
 
-    .scroll-1::-webkit-scrollbar {
+    html::-webkit-scrollbar {
         width: 8px;
         height: 8px;
         }
         
-        .scroll-1::-webkit-scrollbar-thumb {
+        html::-webkit-scrollbar-thumb {
         border-radius: 20px;
         background: #888;
         }
