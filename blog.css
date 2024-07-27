@@ -35,6 +35,10 @@ footer i {
   padding-left: 30%;
   padding-right: 30%;
 }
+.content a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 article {
   box-shadow: 0vh 0vh 4vh rgba(0, 0, 0, 0.4);

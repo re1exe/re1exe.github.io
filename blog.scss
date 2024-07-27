@@ -40,6 +40,10 @@ text-shadow: 0vh 0vh 0.5vh $mainColor;
     align-content: center;
     padding-left: 30%;
     padding-right: 30%;
+    a {
+            color: $textColor;
+            text-decoration: none;
+        }
 }
 
 
