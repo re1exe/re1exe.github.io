@@ -40,6 +40,7 @@ text-shadow: 0vh 0vh 0.5vh $mainColor;
     align-content: center;
     padding-left: 30%;
     padding-right: 30%;
+    margin-top: 8vh;
     a {
             color: $textColor;
             text-decoration: none;
@@ -49,7 +50,6 @@ text-shadow: 0vh 0vh 0.5vh $mainColor;
 
 article {
     box-shadow: 0vh 0vh 4vh rgb(0, 0, 0, 40%);
-    margin-top: 8vh;
     margin-bottom: 2vh;
     padding-left: 3vh;
     padding-right: 3vh;
