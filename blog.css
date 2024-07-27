@@ -65,6 +65,10 @@ article p {
   font-weight: 200;
   margin: 2vh;
 }
+article a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 article .profile {
   text-align: left;
   line-height: 0.1vh;

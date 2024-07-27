@@ -71,6 +71,10 @@ article {
         font-weight: 200;
         margin: 2vh;
     }
+    a {
+        color: $textColor;
+        text-decoration: none;
+    }
 
     .profile {
         text-align: left;
