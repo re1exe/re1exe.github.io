@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #212121;
+  color: #FFFFFF;
+}
+
+nav {
+  font-family: "Lora", serif;
+}
+
+.int-text {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1vh;
+  padding-top: 3vh;
+  font-size: 5vh;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 10vh;
+}
+.buttons a {
+  display: flexbox;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  margin-right: 2vh;
+  padding: 1vh 4vh;
+  border-radius: 5vh;
+  cursor: pointer;
+  border: 0.2vh;
+  border-style: solid;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0 0.8vh;
+  letter-spacing: 0.15vh;
+  text-transform: uppercase;
+  font-size: 1.5vh;
+  transition: all 0.5s ease;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.buttons a:hover {
+  letter-spacing: 0.3vh;
+  background-color: #7e23ff;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #7e23ff 0vh 0.7vh 2.9vh 0vh;
+}
+.buttons a:active {
+  letter-spacing: 0.3vh;
+  background-color: #7e23ff;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #7e23ff 0px 0px 0px 0px;
+  transform: translateY(1vh);
+  transition: 100ms;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.form-popup {
+  display: none;
+  margin-left: 20vh;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  border-radius: 20vh;
+  background-color: rgb(36, 35, 40);
+  border: 0.2vh solid rgb(42, 42, 42);
+  padding-top: 3vh;
+  position: fixed;
+  padding-left: 6vh;
+  padding-right: 6vh;
+  padding-bottom: 3vh;
+  z-index: 9;
+  box-shadow: 0vh 0vh 5vh rgba(0, 0, 0, 0.4);
+  transition: 1s;
+}
+.form-popup i {
+  font-size: 3vh;
+  letter-spacing: 1vh;
+  color: #7e23ff;
+  text-shadow: 0vh 0vh 0.5vh #7e23ff;
+}
+.form-popup p {
+  color: gray;
+  font-size: 3vh;
+}/*# sourceMappingURL=styles.css.map */
