@@ -123,8 +123,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 article img {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: 6vh;
+  height: 4vh;
 }/*# sourceMappingURL=blog.css.map */
