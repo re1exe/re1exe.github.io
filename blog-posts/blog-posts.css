@@ -64,5 +64,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 .maintext {
-  font-size: 3vh;
+  font-size: 4vh;
+  font-weight: 400;
 }/*# sourceMappingURL=blog-posts.css.map */
