@@ -123,7 +123,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 .blog-content {
-  width: 20vh;
+  width: 70vh;
   height: 40vh;
   margin: 2vh;
+  border-radius: 5vh;
 }/*# sourceMappingURL=blog.css.map */
