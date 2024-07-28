@@ -122,7 +122,7 @@ html::-webkit-scrollbar-thumb {
   background: #FE5F55;
 }
 
-article img {
-  width: 6vh;
-  height: 4vh;
+.blog-content {
+  width: 20vh;
+  height: 40vh;
 }/*# sourceMappingURL=blog.css.map */

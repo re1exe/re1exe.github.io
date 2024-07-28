@@ -130,9 +130,7 @@ html::-webkit-scrollbar {
     background: $secondaryColor;
     }
 
-    article {
-        img {
-        width: 6vh;
-        height: 4vh;
-        }
+    .blog-content {
+        width: 20vh;
+        height: 40vh;
     }
