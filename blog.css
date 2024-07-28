@@ -120,4 +120,8 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background: #FE5F55;
+}
+
+article {
+  width: 10vh;
 }/*# sourceMappingURL=blog.css.map */
