@@ -61,4 +61,8 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background: #FE5F55;
+}
+
+.maintext {
+  font-size: 3vh;
 }/*# sourceMappingURL=blog-posts.css.map */
