@@ -132,6 +132,7 @@ html::-webkit-scrollbar {
 
     article {
         img {
-        width: 10vh;
+        width: fit-content;
+        height: fit-content;
         }
     }
