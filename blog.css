@@ -127,4 +127,11 @@ html::-webkit-scrollbar-thumb {
   height: 40vh;
   margin: 2vh;
   border-radius: 5vh;
+}
+
+@media all and (max-width: 1024) {
+  .content {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
 }/*# sourceMappingURL=blog.css.map */
