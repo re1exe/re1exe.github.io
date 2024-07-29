@@ -24,6 +24,9 @@ nav {
     line-height: 1vh;
     padding-top: 3vh;
     font-size: 5vh;
+    p {
+        display: inline;
+    }
 }
 
 .buttons {
@@ -109,4 +112,34 @@ p {
         html::-webkit-scrollbar-thumb {
         border-radius: 20px;
         background: $secondaryColor;
+        }
+
+        @media all and (max-width: 1024px) {
+            .buttons {
+                display: flex;
+                flex-direction: column;
+            }
+                .int-text {
+                    h1 {
+                flex-direction: column;
+                    }
+                p {
+                    font-size: 2.5vh;
+                    display: inline;
+                }
+                span {
+                    display: none;
+                }
+                }
+                .buttons {
+                    
+                    a {
+                        margin-top: 2vh;
+                        padding: 1vh;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            
         }

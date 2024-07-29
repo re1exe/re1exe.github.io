@@ -19,6 +19,9 @@ nav {
   padding-top: 3vh;
   font-size: 5vh;
 }
+.int-text p {
+  display: inline;
+}
 
 .buttons {
   text-align: center;
@@ -98,4 +101,28 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background: #FE5F55;
+}
+
+@media all and (max-width: 1024px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .int-text h1 {
+    flex-direction: column;
+  }
+  .int-text p {
+    font-size: 2.5vh;
+    display: inline;
+  }
+  .int-text span {
+    display: none;
+  }
+  .buttons a {
+    margin-top: 2vh;
+    padding: 1vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=styles.css.map */
