@@ -129,16 +129,25 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5vh;
 }
 
-@media all and (max-width: 1024) {
-  .content {
-    padding-left: 12%;
-    padding-right: 12%;
-  }
-  article {
-    margin-left: 0vh;
-    margin-right: 0vh;
-  }
+@media all and (max-width: 1200px) {
   img.blog-content {
-    width: 30vh;
+    width: -moz-max-content;
+    width: max-content;
+    transition: 0.8s;
+  }
+  .content {
+    margin: 0vh;
+    padding: 0%;
+  }
+}
+@media all and (max-width: 500px) {
+  img.blog-content {
+    width: 35vh;
+    height: 20vh;
+    transition: 0.8s;
+  }
+  .content {
+    margin: 0vh;
+    padding: 0%;
   }
 }/*# sourceMappingURL=blog.css.map */
