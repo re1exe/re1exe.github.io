@@ -138,10 +138,7 @@ html::-webkit-scrollbar-thumb {
     margin-left: 0vh;
     margin-right: 0vh;
   }
-  a img {
-    width: 40vh;
-    height: 10vh;
-    margin: 2vh;
-    border-radius: 30%;
+  img.blog-content {
+    width: 30vh;
   }
 }/*# sourceMappingURL=blog.css.map */
