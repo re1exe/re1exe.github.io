@@ -111,4 +111,27 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background: #FE5F55;
+}
+
+@media all and (max-width: 1200px) {
+  img.blog-content {
+    width: -moz-max-content;
+    width: max-content;
+    transition: 0.8s;
+  }
+  .content {
+    margin: 0vh;
+    padding: 0%;
+  }
+}
+@media all and (max-width: 500px) {
+  img.blog-content {
+    width: 35vh;
+    height: 20vh;
+    transition: 0.8s;
+  }
+  .content {
+    margin: 0vh;
+    padding: 0%;
+  }
 }/*# sourceMappingURL=mywork.css.map */

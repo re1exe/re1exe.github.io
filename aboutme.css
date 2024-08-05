@@ -57,4 +57,12 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background: #FE5F55;
+}
+
+@media all and (max-width: 1200px) {
+  .content {
+    padding-left: 6vh;
+    padding-right: 6vh;
+    transition: 1s;
+  }
 }/*# sourceMappingURL=aboutme.css.map */

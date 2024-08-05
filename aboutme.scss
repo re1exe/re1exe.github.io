@@ -64,3 +64,12 @@ footer {
         border-radius: 20px;
         background: $secondaryColor;
         }
+
+
+        @media all and (max-width: 1200px) {
+            .content {
+                padding-left: 6vh;
+                padding-right: 6vh;
+                transition: 1s;
+            }
+        }
