@@ -131,7 +131,11 @@ html::-webkit-scrollbar-thumb {
 
 @media all and (max-width: 1024) {
   .content {
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  article {
+    margin-left: 0vh;
+    margin-right: 0vh;
   }
 }/*# sourceMappingURL=blog.css.map */
