@@ -140,7 +140,7 @@ html::-webkit-scrollbar {
     @media all and (max-width: 1200px) {
 
         img.blog-content {
-            width: 55vh;
+            width: max-content;
             height: 40vh;
             transition: 0.8s;
             align-content: center;
@@ -158,7 +158,7 @@ padding: 0%;
 @media all and (max-width: 500px) {
 
     img.blog-content {
-        width: 35vh;
+        width: max-content;
         height: 20vh;
         transition: 0.8s;
         align-content: center;
