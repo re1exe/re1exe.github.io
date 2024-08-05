@@ -139,11 +139,16 @@ html::-webkit-scrollbar {
 
     @media all and (max-width: 1200px) {
 
-img.blog-content {
-    width: max-content;
-    transition: 0.8s;
-}
-
+        img.blog-content {
+            width: 55vh;
+            height: 40vh;
+            transition: 0.8s;
+            align-content: center;
+            align-items: center;
+            align-self: center;
+            text-align: center;
+        }
+        
 .content {
 margin: 0vh;
 padding: 0%;
@@ -156,6 +161,10 @@ padding: 0%;
         width: 35vh;
         height: 20vh;
         transition: 0.8s;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
     }
     
     .content {

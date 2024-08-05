@@ -131,9 +131,13 @@ html::-webkit-scrollbar-thumb {
 
 @media all and (max-width: 1200px) {
   img.blog-content {
-    width: -moz-max-content;
-    width: max-content;
+    width: 55vh;
+    height: 40vh;
     transition: 0.8s;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
   }
   .content {
     margin: 0vh;
@@ -145,6 +149,10 @@ html::-webkit-scrollbar-thumb {
     width: 35vh;
     height: 20vh;
     transition: 0.8s;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
   }
   .content {
     margin: 0vh;
