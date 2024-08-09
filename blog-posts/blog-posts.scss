@@ -73,3 +73,11 @@ footer {
     font-size: 4vh;
     font-weight: 400;
 }
+
+@media all and (max-width: 1200px) {
+    .content {
+        padding-left: 6vh;
+        padding-right: 6vh;
+        transition: 1s;
+    }
+}
