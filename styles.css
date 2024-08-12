@@ -150,7 +150,7 @@ html::-webkit-scrollbar-thumb {
   color: #ff605c;
   text-align: center;
   cursor: pointer;
-  display: block;
+  display: grid;
 }
 .card .span:hover {
   text-shadow: 0vh 0vh 1vh #212121;
