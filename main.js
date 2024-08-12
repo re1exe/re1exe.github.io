@@ -17,6 +17,11 @@ const openForm = async () =>  {
     console.log("succesfully executed")
     }
 
+    function closeFormAD() {
+        document.getElementById("AD").style.display = "none";
+        console.log("succesfully executed")
+        }
+
     function gmail() {
         alert("pirkisek@gmail.com")
         console.log("succesfully executed")
@@ -26,4 +31,10 @@ const openForm = async () =>  {
             alert("Idk, im lazy to properly do this page so just go to contacts and text me.")
             console.log("succesfully executed")
             }
+
+            function openFormAD() {
+                document.getElementById("AD").style.display = "block";
+                console.log("succesfully executed")
+                }
+
 
