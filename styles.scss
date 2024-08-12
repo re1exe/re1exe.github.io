@@ -152,11 +152,16 @@ p {
             }
             .span {
                 color: #ff605c;
-                padding-left: 16vh;
+                text-align: center;
                 cursor: pointer;
+                display: block;
             }
-            width: 190px;
-            height: 254px;
+            .span:hover {
+                text-shadow: 0vh 0vh 1vh#212121;
+                transition: 0.5s;
+            }
+            width: 35vh;
+            height: 40vh;
             margin: 0 auto;
             background-color: #F8FBFE;
             border-radius: 8px;

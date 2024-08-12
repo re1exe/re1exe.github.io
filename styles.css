@@ -112,8 +112,8 @@ html::-webkit-scrollbar-thumb {
 .card {
   transition: 1s;
   box-shadow: 0vh 0vh 4vh black;
-  width: 190px;
-  height: 254px;
+  width: 35vh;
+  height: 40vh;
   margin: 0 auto;
   background-color: #F8FBFE;
   border-radius: 8px;
@@ -148,8 +148,13 @@ html::-webkit-scrollbar-thumb {
 }
 .card .span {
   color: #ff605c;
-  padding-left: 16vh;
+  text-align: center;
   cursor: pointer;
+  display: block;
+}
+.card .span:hover {
+  text-shadow: 0vh 0vh 1vh #212121;
+  transition: 0.5s;
 }
 
 .tools {
