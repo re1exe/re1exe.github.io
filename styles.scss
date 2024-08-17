@@ -155,6 +155,7 @@ p {
                 text-align: center;
                 cursor: pointer;
                 display:block
+
            }
             .span:hover {
                 text-shadow: 0vh 0vh 1vh#212121;
@@ -227,4 +228,12 @@ p {
                     }
                 }
             
+        }
+
+
+        .isuearch {
+            bottom: 100%;
+            z-index: 99999999999999999999999;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
         }
