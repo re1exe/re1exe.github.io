@@ -216,4 +216,5 @@ html::-webkit-scrollbar-thumb {
   z-index: 100000000000000000000000;
   color: white;
   font-family: "Courier New", Courier, monospace;
+  font-size: 2vh;
 }/*# sourceMappingURL=styles.css.map */
