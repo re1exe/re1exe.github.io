@@ -211,11 +211,13 @@ html::-webkit-scrollbar-thumb {
     flex-direction: column;
   }
 }
-.isuearch {
-  bottom: 100%;
-  z-index: 100000000000000000000000;
-  color: white;
+.iusearch {
   font-family: "Courier New", Courier, monospace;
-  font-size: 2vh;
-  display: flex;
+  text-align: center;
+  padding-top: 3vh;
+  font-size: 5vh;
+  display: grid;
+  font-size: 1.3vh;
+  bottom: 100%;
+  position: relative;
 }/*# sourceMappingURL=styles.css.map */

@@ -231,11 +231,13 @@ p {
         }
 
 
-        .isuearch {
+        .iusearch {
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 3vh;
+            font-size: 5vh;
+            display:grid;
+            font-size: 1.3vh;
             bottom: 100%;
-            z-index: 99999999999999999999999;
-            color: white;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 2vh;
-            display: flex;
+            position: relative;
         }
