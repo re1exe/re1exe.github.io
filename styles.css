@@ -217,4 +217,5 @@ html::-webkit-scrollbar-thumb {
   color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 2vh;
+  display: flex;
 }/*# sourceMappingURL=styles.css.map */
