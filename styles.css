@@ -118,9 +118,17 @@ dialog button:hover {
   transition: 0.3s;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .blocks {
     -moz-columns: 1;
          columns: 1;
+  }
+  .idk {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  idk {
+    display: unset;
   }
 }/*# sourceMappingURL=styles.css.map */
