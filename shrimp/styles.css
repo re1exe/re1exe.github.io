@@ -1,0 +1,36 @@
+h1 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    gap: 6vh;
+    padding: 1vh;
+    font-size: 5vh;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2vh;
+    box-shadow: 0 0 1vh black;
+}
+
+button:hover {
+    background-color: #45a049;
+    transition: 1s;
+}
+
+.invisible { 
+    display: none;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
