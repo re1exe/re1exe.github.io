@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap");
+html {
+  background-color: #272934;
+}
+
+.mainBox {
+  font-family: "Parkinsans", sans-serif;
+  color: white;
+  display: flex;
+  height: 100%;
+  background-color: #242630;
+  box-shadow: 0 0 1vh black;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  border-radius: 10%;
+  font-size: small;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(101, 73, 226);
+}
+
+a:link {
+  color: rgb(101, 73, 226);
+}
+
+.content {
+  margin: 5vh;
+}/*# sourceMappingURL=styles.css.map */
