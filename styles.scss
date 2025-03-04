@@ -1,0 +1,117 @@
+//Fonts etc
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    background-color: #111111;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #111111;
+    box-shadow: 1vh 0 1vh #000000;
+    padding: 2vh;
+    color: white;
+
+    button {
+        border: none;
+        background-color: transparent;
+        color: white;
+        text-shadow: 0 0 2vh #000000;
+        cursor: pointer;
+    }
+
+    button:hover {
+      color: #945589;
+      text-shadow: 0 0 2vh black;
+      transition: 0.3s;
+    }
+}
+
+h1 {
+    font-size: 8vh;
+    background: -webkit-linear-gradient(rgb(48, 3, 62), rgb(229, 35, 243), rgb(35, 2, 28));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -3vh;
+  }
+
+  h3 {
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 2vh;
+    line-height: 1.5;
+    margin-bottom: 2vh;
+  }
+
+  hr {
+    opacity: 40%;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 4vh;
+    height: 0.5vh;
+    border-radius: 2vh;
+    margin-bottom: 4vh;
+    border: none;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,110,1) 48%, rgba(215,0,255,1) 100%);
+  }
+
+main {
+    padding-top: 10vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+}  
+
+.langs {
+  background-color: rgba(255, 0, 0, 0.463);
+  border: none;
+  border-radius: 1vh;
+  padding: 0.5vh 1vh;
+  color: white;
+  margin: 0.4vh;
+}
+
+#right {
+  float: right;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: 25%;
+  padding: 2vh;
+  background-color: rgba(18, 15, 20, 0.266);
+  border-radius: 1vh;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 2vh rgba(0, 0, 0, 0.414);
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  img {
+    width: 50%;
+    margin-bottom: 3vh;
+  }
+}
+
+#aboutme {
+  margin-top: 3vh;
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #890e929f transparent;
+}
