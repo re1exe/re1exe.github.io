@@ -95,12 +95,17 @@ main {
   border-radius: 1vh;
   text-align: center;
   color: white;
-  box-shadow: 0 0 2vh rgba(0, 0, 0, 0.623);
+  box-shadow: 0 0 2vh rgba(0, 0, 0, 0.789);
   a {
     color: white;
     text-decoration: none;
   }
+  p {
+    font-size: 1.5vh;
+  }
   img {
+    border-radius: 2vh;
+    box-shadow: 0 0 1vh black;
     width: 70%;
     margin-bottom: 3vh;
   }

@@ -27,12 +27,12 @@ fetch("projects.json")
                     <p>${project.description}</p>
                     <img src="${project.image}" alt="${project.name}">
                     <br>
-                    <a href="${project.github}"><i class="fa-brands fa-github"></i></a>
-                    <a href="${project.extLink}"><i class="fa-solid fa-external-link-alt"></i></a>
+                    <a target="_blank" href="${project.github}"><i class="fa-brands fa-github" "></i></a>
+                    <a target="_blank" href="${project.extLink}"><i class="fa-solid fa-external-link-alt"></i></a>
                 </div>
             `;
         }
 
-        placeholder.innerHTML = out; // Insert the projects into the HTML
+        placeholder.innerHTML = out;
     })
     .catch(error => console.error("❌ Error fetching projects:", error));

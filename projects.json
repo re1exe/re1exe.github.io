@@ -1,23 +1,16 @@
 [
     {
-        "name": "Project 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "image": "https://media.istockphoto.com/id/1492984610/cs/vektor/%C4%8Derven%C3%A9-vzorov%C3%A9-raz%C3%ADtko.jpg?s=2048x2048&w=is&k=20&c=xH9oW3dQPpawqyeQmBlcFZZKJpOBU306CdPACIKwnSI=",
+        "name": "Profile card",
+        "description": "cardd.co type thing that u can use for your portfolio | outdated (gonna rework later)",
+        "image": "./profile-card.png",
         "github": "https://github.com/project2",
         "extLink" : "https://example.com/project2"
     },
     {
-        "name": "Project 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "image": "https://media.istockphoto.com/id/1492984610/cs/vektor/%C4%8Derven%C3%A9-vzorov%C3%A9-raz%C3%ADtko.jpg?s=2048x2048&w=is&k=20&c=xH9oW3dQPpawqyeQmBlcFZZKJpOBU306CdPACIKwnSI=",
-        "github": "https://github.com/project2",
-        "extLink" : "https://example.com/project2"
-    },
-    {
-        "name": "Project 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "image": "https://media.istockphoto.com/id/1492984610/cs/vektor/%C4%8Derven%C3%A9-vzorov%C3%A9-raz%C3%ADtko.jpg?s=2048x2048&w=is&k=20&c=xH9oW3dQPpawqyeQmBlcFZZKJpOBU306CdPACIKwnSI=",
-        "github": "https://github.com/project2",
-        "extLink" : "https://example.com/project2"
+        "name": "Areg the editor - portfolio",
+        "description": "Areg`s portfolio | Only did some of the code btw",
+        "image": "./aregbanner.png",
+        "github": "./owo.html",
+        "extLink" : "https://aregus.me/"
     }
 ]
