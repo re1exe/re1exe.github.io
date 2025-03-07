@@ -87,7 +87,7 @@ main {
 .project {
   width: 25%;
   padding: 2vh;
-  background-color: rgba(11, 9, 12, 0.492);
+  background-color: rgba(33, 27, 35, 0.492);
   border-radius: 1vh;
   text-align: center;
   color: white;
@@ -122,6 +122,19 @@ main {
     padding-right: 3vh;
     transition: 0.5s;
   }
+  #projects {
+    display: table;
+    -moz-columns: 2;
+         columns: 2;
+  }
+  .project {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
 }
 footer {
   text-align: center;
@@ -129,6 +142,7 @@ footer {
   background-color: #111;
   color: white;
   margin-top: 5vh;
+  box-shadow: 0 0 2vh black;
 }
 
 .footer-links {
