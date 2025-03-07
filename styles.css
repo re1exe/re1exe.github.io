@@ -114,4 +114,36 @@ main {
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(137, 14, 146, 0.6235294118) transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    padding-left: 3vh;
+    padding-right: 3vh;
+    transition: 0.5s;
+  }
+}
+footer {
+  text-align: center;
+  padding: 4vh 2vh;
+  background-color: #111;
+  color: white;
+  margin-top: 5vh;
+}
+
+.footer-links {
+  margin-top: 1vh;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 1vh;
+  font-size: 2.5vh;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #945589;
+  transition: 0.3s;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
