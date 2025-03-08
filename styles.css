@@ -134,6 +134,10 @@ main {
     margin-right: auto;
     margin-top: 3vh;
     margin-bottom: 3vh;
+    padding: 6vh;
+  }
+  .project img {
+    width: 100%;
   }
 }
 footer {
