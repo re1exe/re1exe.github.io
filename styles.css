@@ -128,6 +128,7 @@ main {
          columns: 2;
   }
   .project {
+    width: 50%;
     max-width: -moz-fit-content;
     max-width: fit-content;
     margin-left: auto;
