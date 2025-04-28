@@ -7,6 +7,13 @@
         "extLink" : "https://pirkisek.github.io/profile_card"
     },
     {
+        "name": "Login screen",
+        "description": "A  stylish, minimalistic login page with glassmorphism and soft hover animations — perfect for any web project that wants a welcoming and futuristic aesthetic.",
+        "image": "./login_screen.png",
+        "github": "https://github.com/Pirkisek/login-screen",
+        "extLink" : "https://pirkisek.github.io/login_screen"
+    },
+    {
         "name": "Areg the editor - portfolio",
         "description": "Areg`s portfolio | Only did some of the code btw",
         "image": "./aregbanner.png",
