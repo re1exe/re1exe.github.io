@@ -92,6 +92,7 @@ main {
   text-align: center;
   color: white;
   box-shadow: 0 0 2vh rgba(0, 0, 0, 0.789);
+  margin-bottom: 3vh;
 }
 .project a {
   color: white;
