@@ -14,6 +14,20 @@
         "extLink" : "https://pirkisek.github.io/login_screen"
     },
     {
+        "name": "Wired Portfolio",
+        "description": "In Progress",
+        "image": "./Wired_portfolio.png",
+        "github": "",
+        "extLink" : ""
+    },
+    {
+        "name": "Site for WDP's Minecraft server",
+        "description": "Areg`s portfolio | Only did some of the code btw",
+        "image": "./in_progress.png",
+        "github": "",
+        "extLink" : ""
+    },
+    {
         "name": "Areg the editor - portfolio",
         "description": "Areg`s portfolio | Only did some of the code btw",
         "image": "./aregbanner.png",
