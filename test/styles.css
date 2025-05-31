@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+25&family=Micro+5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+25&family=Micro+5&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Jersey 15", sans-serif;
+}
+
+.navbar {
+  text-shadow: 0 0 1vh black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+          backdrop-filter: blur(10px) saturate(150%);
+  background: rgba(20, 20, 20, 0.13);
+  z-index: 1000;
+}
+.navbar .logo img {
+  filter: drop-shadow(0 0 1vh black);
+  width: 7vh;
+  padding-left: 3vh;
+}
+.navbar .menu {
+  display: flex;
+  gap: 3vw;
+  margin-right: 3vh;
+}
+.navbar .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3vh;
+  transition: all 0.4s;
+}
+.navbar .menu a:hover {
+  color: #9F22B3;
+  text-shadow: 0 0 2vh black;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  display: block;
+  z-index: -2;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0));
+  z-index: -1;
+}
+.header h1, .header h2 {
+  position: relative;
+  color: white;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 0 0 3vh black;
+  margin: 0;
+}
+.header h1 {
+  font-size: 15vh;
+  padding-top: 20vh;
+}
+.header h2 {
+  font-size: 10vh;
+  margin-top: 2vh;
+}
+
+.copy-container {
+  text-align: center;
+  margin-top: 5%;
+}
+.copy-container input {
+  color: white;
+  cursor: pointer;
+  border: 0.2vh solid transparent;
+  width: 18em;
+  height: 2.5em;
+  padding-left: 0.8em;
+  text-align: center;
+  outline: none;
+  overflow: hidden;
+  background-color: rgba(243, 243, 243, 0.2509803922);
+  border-radius: 1vh;
+  transition: all 0.5s;
+}
+.copy-container input:hover,
+.copy-container input:active {
+  border: 0.2vh solid #9F22B3;
+  box-shadow: 0 0 0 0.7vh rgba(74, 157, 236, 0.2);
+  background-color: rgba(255, 255, 255, 0.1215686275);
+}
+.copy-container button {
+  margin-top: 1vh;
+  color: rgba(255, 255, 255, 0.3764705882);
+  padding: 1vh;
+  background-color: rgba(111, 114, 122, 0.2509803922);
+  border: none;
+  border-radius: 2vh;
+}
+
+.main {
+  color: white;
+  height: 100%;
+  background-color: #1B1C1F;
+  padding-top: 8vh;
+  padding-left: 3vh;
+  text-shadow: 0 0 2vh black;
+  padding-right: 3vh;
+  padding-bottom: 10%;
+}
+.main p {
+  padding-left: 6vh;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 0.4vh;
+}
+.main h3 {
+  font-size: 10vh;
+  text-align: center;
+  font-family: "Jersey 25", sans-serif;
+}
+.main .WDP {
+  font-weight: bold;
+}
+.main a {
+  color: #9F22B3;
+}
+
+.contacts {
+  color: white;
+  height: 100%;
+  background-color: #1B1C1F;
+  padding-top: 10%;
+  padding-left: 3vh;
+  text-shadow: 0 0 2vh black;
+  padding-right: 3vh;
+}
+.contacts p {
+  padding-left: 6vh;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 0.4vh;
+}
+.contacts h3 {
+  font-size: 10vh;
+  font-family: "Jersey 25", sans-serif;
+  text-align: center;
+}
+.contacts .WDP {
+  font-weight: bold;
+}
+.contacts a {
+  color: #9F22B3;
+}
+.contacts .contacts_ {
+  display: flexbox;
+  text-align: center;
+  align-items: space-between;
+  margin-top: 10%;
+}
+.contacts button {
+  height: 50px;
+  margin: 5px;
+  width: 120px;
+  background: #333;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #56405D 1px;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2E2D2E, #212121);
+  box-shadow: -1px -5px 15px #53415B, 5px 5px 15px #58415B, inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+}
+.contacts button:hover {
+  box-shadow: 1px 1px 13px #29202E, -1px -1px 13px #735478;
+  color: #d6d6d6;
+  transition: 500ms;
+}
+.contacts button:active {
+  box-shadow: 1px 1px 13px #26202E, -1px -1px 33px #635478;
+  color: #d6d6d6;
+  transition: 100ms;
+}
+
+.custom-shape-divider-bottom-1747558508 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.shapes {
+  background-color: #1B1C1F;
+  margin-top: -5vh;
+  margin-bottom: -5vh;
+}
+
+.custom-shape-divider-bottom-1747558508 svg {
+  position: relative;
+  display: block;
+  width: calc(124% + 1.3px);
+  height: 87px;
+}
+
+.custom-shape-divider-bottom-1747558508 .shape-fill {
+  fill: #BA52B8;
+}
+
+.custom-shape-divider-top-1747558889 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1747558889 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 113px;
+}
+
+.custom-shape-divider-top-1747558889 .shape-fill {
+  fill: #BA52B8;
+}
+
+.discord-info {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+  text-align: center;
+  margin: 8vh auto 0 auto;
+  background-color: #7289DA;
+  box-shadow: 0 0 1vh black;
+  padding: 2vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1vh;
+}
+.discord-info .discord-logo {
+  width: 4vh;
+  filter: drop-shadow(0 0 0.5vh black);
+}
+
+footer {
+  text-shadow: 0 0 1vh black;
+  bottom: 0;
+  width: 100%;
+  height: 35%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+          backdrop-filter: blur(10px) saturate(150%);
+  background-color: rgba(19, 19, 21, 0.768627451);
+  color: white;
+  box-shadow: 0 0 6vh black;
+}
+footer h2 {
+  font-size: 6vh;
+  margin: 4vh;
+  filter: drop-shadow(0 0 1vh #7A7A7A);
+}
+footer .links {
+  margin: 4vh;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2vh;
+}
+footer a a:visited {
+  color: #CB76FF;
+}
+footer a span {
+  text-decoration: underline;
+  color: #CB76FF;
+}
+footer img {
+  filter: invert(100%) brightness(10000%);
+  width: 5vh;
+}
+footer .wdpLogo {
+  filter: none;
+  transform: translateY(0.4vh);
+}
+footer .copy {
+  display: grid;
+  grid-row: 2 2;
+  text-align: center;
+  bottom: 0vh;
+  color: #FF7373;
+}
+footer .copy #copyright {
+  text-decoration: none;
+  color: #FF7373;
+}/*# sourceMappingURL=styles.css.map */
