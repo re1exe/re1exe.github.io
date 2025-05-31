@@ -1,4 +1,4 @@
-const password = "Meow"
+const password = "$apr1$U7UsJ6fg$K6qrpP0aiCMtNtk523Hxq"
 
 const askPassword = () => {
   const pass = prompt("Enteer Password:");
