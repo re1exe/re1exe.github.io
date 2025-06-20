@@ -1,17 +1,17 @@
 [
     {
         "name": "Profile card",
-        "description": "cardd.co type thing that u can use for your portfolio.",
+        "description": "Glassy, minimalistic portfolio inspired by cardd.co",
         "image": "./profile_card.png",
-        "github": "https://github.com/Pirkisek/Profile_card",
-        "extLink" : "https://pirkisek.github.io/profile_card"
+        "github": "https://github.com/re1exe/Profile_card",
+        "extLink" : "https://re1exe.github.io/profile_card"
     },
     {
         "name": "Login screen",
         "description": "A  stylish, minimalistic login page with glassmorphism and soft hover animations — perfect for any web project that wants a welcoming and futuristic aesthetic.",
         "image": "./login_screen.png",
-        "github": "https://github.com/Pirkisek/login-screen",
-        "extLink" : "https://pirkisek.github.io/login_screen"
+        "github": "https://github.com/re1exe/login-screen",
+        "extLink" : "https://re1exe.github.io/login_screen"
     },
     {
         "name": "Wired Portfolio",
@@ -22,14 +22,14 @@
     },
     {
         "name": "WDP Server",
-        "description": "Site for WDP's Minecraft server",
-        "image": "./in_progress.png",
+        "description": "WDP - A Lifesteal Minecraft SMP <br> - Belgian Hosted <br> Custom Plugins <br> Discord: <a style='color: #DB1EE89F;' href='https://discord.gg/QuTVx7dTWS'>Click here</a>",
+        "image": "./wdp_server.png",
         "github": "",
         "extLink" : ""
     },
     {
         "name": "Areg the editor - portfolio",
-        "description": "Areg`s portfolio | Only did some of the code btw",
+        "description": "Areg`s personal portfolio <br> Only did some of the code",
         "image": "./aregbanner.png",
         "github": "./owo.html",
         "extLink" : "https://aregus.me/"
