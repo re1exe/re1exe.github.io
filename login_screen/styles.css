@@ -145,7 +145,7 @@ input[type=checkbox] {
 .login:hover {
   cursor: pointer;
   background-color: rgba(69, 116, 157, 0.6352941176);
-  transition: 0.2s;
+  transition: 0.2s all;
 }
 
 @media only screen and (max-width: 800px) {
