@@ -38,5 +38,5 @@ Go to line `25` in `main.js` and replace the link with your paypal link
 
 ## Authors
 
-- [@pirkisek](https://www.github.com/pirkisek)
+- [@re1exe](https://www.github.com/re1exe)
 
