@@ -2,6 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("✅ Page loaded!");
 });
 
+function linkTo(url) {
+      window.open(url, '_blank');
+}
+
 function scrollToTop() {
     document.getElementById("main").scrollIntoView();
 };
@@ -12,6 +16,10 @@ function scrollToProjects() {
 
 function scrollToAbtMe() {
     document.getElementById("aboutme").scrollIntoView();
+};
+
+function scrollToSocials() {
+    document.getElementById("main").scrollIntoView();
 };
 
 fetch("projects.json")

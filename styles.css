@@ -166,4 +166,12 @@ a:hover {
   color: #945589;
   transition: 0.3s;
   cursor: pointer;
+}
+
+#socials {
+  cursor: pointer;
+}
+#socials i {
+  margin: 2vh;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
