@@ -24,7 +24,7 @@ function scrollToID(scrollId) {
 
 
 // Fetch and display items from items.json
-fetch("/items.json")
+fetch("items.json")
   .then(response => {
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
