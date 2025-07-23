@@ -2,8 +2,8 @@
   {
     "name": "Raspberry Pi 4",
     "description": "Pretty powerful mini computer",
-    "image": "/Images/raspberry_pi.jpg",
-    "fullImage": "/Images/raspberry_pi.jpg",
+    "image": "Images/raspberry_pi.jpg",
+    "fullImage": "Images/raspberry_pi.jpg",
     "price": "40$"
   },
   {
