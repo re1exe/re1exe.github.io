@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Raspberry Pi 4",
+    "description": "Pretty powerful mini computer",
+    "image": "/Images/raspberry_pi.jpg",
+    "fullImage": "/Images/raspberry_pi.jpg",
+    "price": "40$"
+  },
+  {
+    "name": "Windows 2000 Proffesional",
+    "description": "Who still really wants this in this year?",
+    "image": "/Images/windows_pc.jpg",
+    "fullImage": "/Images/windows_pc.jpg",
+    "price": "120$"
+  },
+  {
+    "name": "Goblin that eats your cables",
+    "description": "I dont want her... please take her already",
+    "image": "/Images/goblin.jpg",
+    "fullImage": "/Images/goblin.jpg",
+    "price": "FREE"
+  },
+  {
+    "name": "Lain Iwakura",
+    "description": "Lain Iwakura, a computer nerd, that drinks all of your pepsi and does cereal experiments",
+    "image": "/Images/lain_iwakura.jpg",
+    "fullImage": "/Images/lain_iwakura.jpg",
+    "price": "FREE"
+  },
+  {
+    "name": " Free Vbucks",
+    "description": "1000 of v-bucks from the game fortnite",
+    "image": "/Images/vbucks.jpg",
+    "fullImage": "/Images/vbucks.jpg",
+    "price": "Your mom's credit card info."
+  },
+  {
+    "name": "A twink",
+    "description": "Skinny orphan that looks like a girl, but is a boy.",
+    "image": "/Images/freminett.jpg",
+    "fullImage": "/Imaages/freminett.jpg",
+    "price": "20$"
+  }
+]
