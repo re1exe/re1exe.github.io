@@ -1,5 +1,20 @@
 [
     {
+        "name": "<i class='fa-solid fa-thumbtack' style='color: #dc8add;''></i> WDP Server",
+        "description": "WDP - A Minecraft SMP <br> <strong>Season two out!</strong> <br> - Belgian Hosted <br> Custom Plugins, Items and much more! <br> Discord in: <a style='text-decoration: underline;' target='_blank' href='https://wdpserver.com'>wdpserver.com</a>",
+        "image": "./wdp_server.png",
+        "github": "",
+        "extLink" : "https://wdpserver.com"
+    },
+
+        {
+        "name": "Shoppage",
+        "description": "A project for practicing JavaScript",
+        "image": "./shoppage.png",
+        "github": "https://github.com/re1exe/shop-page",
+        "extLink" : "https://re1exe.github.io/shoppage"
+    },
+    {
         "name": "Profile card",
         "description": "Glassy, minimalistic portfolio inspired by cardd.co",
         "image": "./profile_card.png",
@@ -19,13 +34,6 @@
         "image": "./Wired_portfolio.png",
         "github": "",
         "extLink" : ""
-    },
-    {
-        "name": "WDP Server",
-        "description": "WDP - A Lifesteal Minecraft SMP <br> - Belgian Hosted <br> Custom Plugins <br> Discord: <a target='_blank' href='https://re1exe.github.io/wdpserver/github.i'>wdpserver.com</a>",
-        "image": "./wdp_server.png",
-        "github": "",
-        "extLink" : "https://wdpserver.com"
     },
     {
         "name": "Areg the editor - portfolio",
