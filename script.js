@@ -6,6 +6,10 @@ function linkTo(url) {
       window.open(url, '_blank');
 }
 
+    function linkTo_(url) {
+      window.location.href = url;
+    };
+
 function scrollToTop() {
     document.getElementById("main").scrollIntoView();
 };

@@ -2,7 +2,7 @@
     {
         "name": "<i class='fa-solid fa-thumbtack' style='color: #dc8add;''></i> WDP Server",
         "description": "WDP - A Minecraft SMP <br> <strong>Season two out!</strong> <br> - Belgian Hosted <br> Custom Plugins, Items and much more! <br> Discord in: <a style='text-decoration: underline;' target='_blank' href='https://wdpserver.com'>wdpserver.com</a>",
-        "image": "./wdp_server.png",
+        "image": "/wdp_server.png",
         "github": "",
         "extLink" : "https://wdpserver.com"
     },
@@ -10,35 +10,35 @@
         {
         "name": "Shoppage",
         "description": "A project for practicing JavaScript",
-        "image": "./shoppage.png",
+        "image": "/shoppage.png",
         "github": "https://github.com/re1exe/shop-page",
         "extLink" : "https://re1exe.github.io/shoppage"
     },
     {
         "name": "Profile card",
         "description": "Glassy, minimalistic portfolio inspired by cardd.co",
-        "image": "./profile_card.png",
+        "image": "/profile_card.png",
         "github": "https://github.com/re1exe/Profile_card",
         "extLink" : "https://re1exe.github.io/profile_card"
     },
     {
         "name": "Login screen",
         "description": "A  stylish, minimalistic login page with glassmorphism and soft hover animations — perfect for any web project that wants a welcoming and futuristic aesthetic.",
-        "image": "./login_screen.png",
+        "image": "/login_screen.png",
         "github": "https://github.com/re1exe/login-screen",
         "extLink" : "https://re1exe.github.io/login_screen"
     },
     {
         "name": "Wired Portfolio",
         "description": "In Progress",
-        "image": "./Wired_portfolio.png",
+        "image": "/Wired_portfolio.png",
         "github": "",
         "extLink" : ""
     },
     {
         "name": "Areg the editor - portfolio",
         "description": "Areg`s personal portfolio <br> Only did some of the code",
-        "image": "./aregbanner.png",
+        "image": "/aregbanner.png",
         "github": "./owo.html",
         "extLink" : "https://aregus.me/"
     }
